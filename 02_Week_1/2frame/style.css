@@ -1,0 +1,144 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.roboto-thin{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.roboto-light{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.roboto-regular{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-medium{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.roboto-bold{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.roboto-black{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.roboto-thin-italic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+.roboto-light-italic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.roboto-regular-italic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.roboto-medium-italic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.roboto-bold-italic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.roboto-black-italic{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #F9F9FA;
+}
+.mini_vers{
+    margin: 50px 0 0 50px;
+    width: 360px;
+    height: 441px;
+    background: white;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.mini_name{
+    width: 320px;
+    height: 60px;
+    background: #F9F9FA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin:0 20px 20px 20px;
+}
+.mini_img_place{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.mini_img{
+    width: 25px;
+}
+.mini_akk{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mini_fio{
+    font-size: 16px;
+}
+.mini_role{
+    color: #1C294D80;
+}
+.mini_flex_button{
+    display: flex;
+    flex-direction: column;
+}
+.mini_button,.mini_red,.mini_profile{
+    width: 320px;
+    height: 60px;
+    border: 0;
+    border-top: 2px solid #2A3D4826;
+    margin: 0 20px;
+    background: white;
+    text-align: left;
+    font-size: 14px
+}
+.mini_profile{
+    color: #FC6E1D;
+    margin-left: 15px;
+}
+.mini_red{
+    color: #FF3347;
+}
+.mini_line{
+    height: 60px;
+    width: 5px;
+    background: #FC6E1D;
+    border-radius: 5px;
+}
+.mini_flex_profile{
+    display: flex;
+}

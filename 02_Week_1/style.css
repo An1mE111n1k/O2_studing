@@ -1,0 +1,203 @@
+
+body{
+    width: 1360px;
+}
+
+.arrow_back_img{
+    width: 20px;
+    height: 20px;
+}
+.arrow_img{
+    width: 6px;
+    height: 11px;
+    padding-top: 4px;
+}
+.profile{
+    margin:20px 10px;
+}
+.profile_title{
+    color: #1C294D;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+}
+.slide{
+    display: flex;
+    align-items: flex-start;
+    margin:20px 10px;
+    background-color: #F9F9FA;
+    border-radius:5px ;
+    width: 660px;
+    height: 50px;
+}
+
+.slide_text{
+    padding: 16px 10px;
+
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    color: #55646D ;
+
+}
+.form_text{
+    display: flex;
+    margin:15px 0px 5px 10px;
+
+    padding-top: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    color: #55646D ;
+}
+.must_be::after{
+    content: '*';
+    color: red;
+    padding-left: 5px;
+
+}
+.client_info{
+    margin: 0px 0px 0px 10px;
+    width: 420px;
+    height: 50px;
+    border: 1px solid  #DFE2E4;
+    border-radius: 5px;
+}
+.tel{
+    display: flex;
+    gap: 10px;
+    width: 420px;
+    margin: 0 0 0 7px;
+}
+.tel_area{
+    display: flex;
+    flex-direction: column;
+}
+.number{
+    width: 205px;
+    height: 50px;
+    border: 1px solid  #DFE2E4;
+    border-radius: 5px;
+}
+.save_info{
+    margin: 30px 0px 0 10px;
+    width: 270px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FF7A00;
+    border: 1px solid #FF7A00 ;
+
+}
+.btn_text{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.formRowSex{
+    justify-content: flex-start;
+    align-items: end;
+    gap: 0;
+}
+
+.formRowSex div {
+    width: 30%;
+}
+
+.formRowSex input[type="radio"] {
+    display: none;
+}
+
+.radioLabel {
+    display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #DFE2E4;
+	border-radius: 6px;
+	user-select: none;
+    width: 40%;
+}
+
+.formRowSex input[type=radio]:checked + label {
+	color: #FF7A00;
+    border-color: #FF7A00;
+}
+.formRow {
+    display: flex;
+    width: 100%;
+    gap: 2em;
+}
+
+.tripleInputRow div {
+    width: 10%;
+    align-self: end;
+}
+
+.tripleInputRow select {
+    color: #1C294D;
+    font-size: 14px;
+}
+
+.changeProfileForm label {
+    font-size: 14px;
+}
+
+.requireField{
+    color: #FF3347;
+    font-size: 15px;
+}
+
+.pickDate {
+    border: 1px solid #DFE2E4;
+    border-radius: 5px;
+    padding: .4em;
+}
+
+.formRowSex{
+    justify-content: flex-start;
+    align-items: end;
+    gap: 0;
+}
+
+.formRowSex div {
+    width: 20%;
+}
+
+.formRowSex input[type="radio"] {
+    display: none;
+}
+
+.radioLabel {
+    display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #DFE2E4;
+	border-radius: 6px;
+	user-select: none;
+    width: 40%;
+}
+
+.formRowSex input[type=radio]:checked + label {
+	color: #FF7A00;
+    border-color: #FF7A00;
+}
+.addInfo{
+    color: #55646D ;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+}
+.lastinfo{
+    margin: 10px 0px 0px 10px;
+}
+.formRowSex{
+    margin: 10px 0 0 0;
+}
